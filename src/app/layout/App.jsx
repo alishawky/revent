@@ -31,6 +31,7 @@ class App extends Component {
                 <Route path='/test' component={TestComponent} />
 
                 <Route path='/events/:id' component={EventDetailedPage} />
+                <Route path="/manage/:id" component={EventForm} />
                 <Route path='/people' component={PeopleDashoard} />
                 <Route path='/profile/:id' component={UserDetailedPage} />
                 <Route path='/settings' component={SettingsDashboard} />

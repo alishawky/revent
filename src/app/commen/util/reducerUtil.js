@@ -3,4 +3,4 @@ export const createReducer = (initialState, fnMap) => {
         const handler = fnMap[type];
          return handler ? handler(state, payload) : state
     }
-}
+} 
