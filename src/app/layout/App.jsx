@@ -12,6 +12,7 @@ import EventForm from '../../features/event/EventForm/EventForm';
 import UserDetailedPage from '../../features/user/UserDetailed/UserDetailedPage';
 import HomePage from '../../features/home/HomePage';
 import TestComponent from '../../features/testarea/TestComponent';
+import ModalManager from '../../features/modals/ModalManager';
 
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
           <div>
             <NavBar />
             <Container className="main">
+            <ModalManager/>
               <Switch>
                 <Route path='/events' component={EventDashboard} />
 
